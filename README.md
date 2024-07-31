@@ -33,7 +33,7 @@ $ ./mvnw spring-boot:run
 
 - **BorrowingRecord**	Acts a juntion/join table between Patron and book, has Many-To-One Assosciation with Patron And Book
 
-### 2.4 API Routes
+### 2.3 API Routes
 
 #### **DO NOT FORGET** to add localhost/8080 before each request as the server runs on local host on port 8080 
 
