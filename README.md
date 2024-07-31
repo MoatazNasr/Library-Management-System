@@ -26,8 +26,6 @@ $ ./mvnw spring-boot:run
 
 ### 2.2 Entities 
 
-#### Entities 
-
 - **Patron**	has One-To-Many Assosciation with BorrowingRecord
 
 - **ContactInformation** has One-To-One Assosciation with patron
