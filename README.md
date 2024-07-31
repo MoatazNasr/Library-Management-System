@@ -66,7 +66,7 @@ Method | Path           | Description                                         |
 POST   | /api/borrow/bookId/patron/patronId | used by patron to borrow a book |
 PUT    | /api/return/bookId/patron/patronId | used by patron to return a book |
 
-## 3. API Request JSON Body Samples
+## 3. API Request Body With JSON Data Samples
 
 ### 3.1 Save Patron Request
 
