@@ -15,9 +15,8 @@ $ git clone git@github.com:AgileSpirit/spring-boot-sample.git
 ```
 $ ./mvnw spring-boot:run
 ```
-  
 
-## 2 API
+## 2. API
 
 ### 2.1 Interact with API
 
@@ -34,8 +33,7 @@ $ ./mvnw spring-boot:run
 
 - **BorrowingRecord**	Acts a juntion/join table between Patron and book, has Many-To-One Assosciation with Patron And Book
 
-
-### 2.3 API Routes
+### 2.4 API Routes
 
 #### **DO NOT FORGET** to add localhost/8080 before each request as the server runs on local host on port 8080 
 
@@ -68,3 +66,29 @@ Method | Path           | Description                                         |
 POST   | /api/borrow/bookId/patron/patronId | used by patron to borrow a book |
 PUT    | /api/return/bookId/patron/patronId | used by patron to return a book |
 
+## 3. API Request JSON Body Samples
+
+### 3.1 Save Patron Request
+
+```
+{
+  "email": "moataz@gmail.com",
+  "password": "125456654654",
+  "contactInformation": {
+    "name": "moataz nasr",
+    "phoneNumber": "01065415094",
+    "age": 15
+  }
+}
+```
+
+### 3.2 Save Book Request
+
+```
+{
+  "title":"the seven secret of wealth",
+  "author":"Sarah Adam",
+  "publicationYear": 1920,
+  "isbn": "1205-5032-5004-1983"
+}
+```
