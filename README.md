@@ -37,7 +37,7 @@ $ ./mvnw spring-boot:run
 
 ### 2.3 API Routes
 
-### **DO NOT FORGET** to add localhost/8080 before each request as the server runs on local host on port 8080 
+#### **DO NOT FORGET** to add localhost/8080 before each request as the server runs on local host on port 8080 
 
 #### Patron
 
