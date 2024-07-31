@@ -21,8 +21,8 @@ $ ./mvnw spring-boot:run
 
 ### 2.1 Interact with API
 
- You could interact with the application's APIS by postman (https://www.postman.com/)
- Also you could use thunder client a visual studio code extension (https://www.thunderclient.com/)
+ - You could interact with the application's APIS by postman (https://www.postman.com/), Also you could use thunder client a visual studio code extension (https://www.thunderclient.com/)
+ - There is no Authentication Mechanism 
 
 ### 2.2 Entities 
 
